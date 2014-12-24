@@ -33,8 +33,7 @@ The point is that sleep/hibernation is now a common task to squeeze as much batt
 * AutoIt 3.3.x or later
 * Required .au3 libs
   * [BatteryUDF](../../../BatteryUDF/)
-  * getbattstatus
-
+  
 ## License
 
 Copyright Caleb Ku 2009. Distributed under the Apache 2.0 License. (See accompanying file LICENSE or copy at http://www.apache.org/licenses/LICENSE-2.0)
