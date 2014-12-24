@@ -1,6 +1,6 @@
 C3PowerBenchmark
 ================
-It's extremely easy to benchmark the battery life of a notebook, laptop, or tablet. However, it's much harder to answer the question: What is my standby battery life? C3PowerBenchmark was written to answer this very question.
+It's extremely easy to benchmark the battery life of a notebook, laptop, or tablet during use. However, it's much harder to answer the question: What is my standby battery life? C3PowerBenchmark was written to answer this very question.
 
 Most people use their mobile devices in similar ways. Like your cellphone, no one turns on their computer and uses it from 100% to 0% battery life. Instead, you'll put the system to sleep until you need to use it later. The problem is that like your cellphone's standby mode, your computer consumes power when it's sleeping or in hiberation. 
 
