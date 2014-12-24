@@ -1,10 +1,8 @@
 C3PowerBenchmark
 ================
-It's extremely easy to benchmark the battery life of a notebook, laptop, or tablet. However, it's much harder to answer the question: What is my standby battery life? 
+It's extremely easy to benchmark the battery life of a notebook, laptop, or tablet. However, it's much harder to answer the question: What is my standby battery life? C3PowerBenchmark was written to answer this very question.
 
-Most people use their mobile devices in similar ways. Like your cellphone, no one turns on their computer and uses it from 100% to 0% battery life. 
-
-Instead, you'll put the system to sleep until you need to use it later. The problem is that like your cellphone's standby mode, your computer consumes power when it's sleeping or in hiberation. 
+Most people use their mobile devices in similar ways. Like your cellphone, no one turns on their computer and uses it from 100% to 0% battery life. Instead, you'll put the system to sleep until you need to use it later. The problem is that like your cellphone's standby mode, your computer consumes power when it's sleeping or in hiberation. 
 
 C3PowerBenchmark is named after the C3 power state that the CPU enters when going to sleep or hibernation, and it's designed to benchmark the power consumption efficiency of Windows-based notebooks, tablets, and laptops.
 
@@ -17,7 +15,7 @@ This program follows a workflow process:
 5. wakes up at set timer
 6. queries and records battery information and current time stamp  to csv file
 
-This process repeats 12 times or until you exit the program (using system tray icon). The csv information contains battery capacity at each time stamp. The amount of power consumed is the difference. As we know the voltage from the physical battery label and the standby duration (12 hours), we can calculate the amount of power consumed in watts during this time period, and even extrapolate total standby battery life with a high degree of precision.
+This process repeats 12 times (the scientific process demands reproducibility after all) or until you exit the program (using system tray icon). The csv information contains battery capacity at each time stamp. The amount of power consumed is the difference. As we know the voltage from the physical battery label and the standby duration (12 hours), we can calculate the amount of power consumed in watts during this time period, and even extrapolate total standby battery life with a high degree of precision.
 
 ## Background
 
