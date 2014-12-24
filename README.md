@@ -27,6 +27,7 @@ The point is that sleep/hibernation is now a common task to squeeze as much batt
 
 ## Executable Requirements
 * Windows XP/NT/2000/7/8
+ * "Allow Sleep Timers" must be enabled in power management
 
 ## Requirements for Source
 * AutoIt 3.3.x or later
