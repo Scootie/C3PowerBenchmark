@@ -15,7 +15,7 @@ This program follows a workflow process:
 5. wakes up at set timer
 6. queries and records battery information and current time stamp  to csv file
 
-This process repeats 12 times (the scientific process demands reproducibility after all) or until you exit the program (using system tray icon). The csv information contains battery capacity at each time stamp. The amount of power consumed is the difference. As we know the voltage from the physical battery label and the standby duration (12 hours), we can calculate the amount of power consumed in watts during this time period, and even extrapolate total standby battery life with a high degree of precision.
+This process (steps 2 through 6) repeats 12 times (the scientific process demands reproducibility after all) or until you exit the program (using system tray icon). The csv information contains battery capacity at each time stamp. The amount of power consumed is the difference. As we know the voltage from the physical battery label and the standby duration (12 hours), we can calculate the amount of power consumed in watts during this time period, and even extrapolate total standby battery life with a high degree of precision.
 
 ## Background
 
